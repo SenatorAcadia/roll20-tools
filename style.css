@@ -1,0 +1,45 @@
+/* 1.0: Base styles for the page */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* 2.0: Styles for the canvas element */
+canvas {
+  border: 1px solid #ccc;
+}
+
+/* 3.0: Styles for the image drop area */
+#image-drop {
+  border: 4px dotted #ccc;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* 4.0: Styles for warning messages */
+.warning {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* 5.0: Styles for the dimensions display */
+#dimensions {
+  margin-bottom: 10px;
+}
+
+/* 6.0: Styles for the squares display */
+#squares {
+  margin-bottom: 10px;
+}
+
+/* 7.0: Style for the image-drop area when the file is dragged over */
+#image-drop.dragover {
+  border: 4px inset #ccc;
+}
+
+/* 8.0: Styles for the dragover text */
+#image-drop.dragover p {
+  color: #000;
+}

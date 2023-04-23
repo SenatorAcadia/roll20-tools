@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Roll20 Canvas with Drag-and-Drop Image</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Roll20 Canvas with Drag-and-Drop Image</h1>
+	<h3>Version 10</h3>
+  <p>Adding the changes to the drop area. Fix 8</p>
+    <div id="dimensions"></div>
+    <div id="squares"></div>
+    <div id="half-size"></div>
+    <div id="image-drop" ondrop="dropHandler(event)" ondragover="dragOverHandler(event)" ondragleave="dragLeaveHandler(event)">
+      <p>Drag an image file here to load it onto the canvas.</p>
+    </div>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <div id="results"></div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
